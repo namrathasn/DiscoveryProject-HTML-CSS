@@ -1,0 +1,262 @@
+*{
+    padding: 0 0;
+
+    margin: 0 0;
+}
+
+
+
+.header{
+background-color: rgb(215, 250, 248);
+height:"70vh"; 
+width:"100%";
+
+}
+
+.image{
+    padding:0px;
+    margin:0px;
+    left: 30px;
+    right: 80px;
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+    
+
+
+}
+.container-fluids{
+height: 120vh;
+width: 100vw;
+   
+margin: 0 auto;
+    left: 1;
+    right:27px;
+    -o-object-fit: cover;
+ object-fit: cover;
+    position: relative; 
+    /* top: 0; */
+    width: 100%;
+    bottom: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+
+.nav {
+    /* border: 1px solid rgb(218, 200, 200); */
+    /* background-color: rgb(46, 8, 77); */
+    display:flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .firstbox {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+  }
+  .secondbox {
+    color:rgb(248, 252, 250);
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 275px;
+    left: 760px;
+   
+    width: 30%;
+  }
+  .img {
+    width:80%;
+    z-index: 0; }
+    
+
+
+
+    .carousel-caption {
+    z-index:1;
+    font-size: 50px;
+    margin-top: -100px;
+    display: flex;
+    justify-content:start;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 200px;
+    position: relative;
+    bottom: 140px;
+    color: white;
+   
+    
+    }
+    .text{
+        display: flex;
+        padding-left: 105px;
+
+
+    }
+    .contain
+    {
+height: 85%;
+width: 100%;
+background-color: aqua;
+position: relative;
+top:20px;
+left:48px;
+right: 98px;
+    }
+
+    .contain1{
+/* height: 45%; */
+height: 100vh;
+width: 100%;
+background-color: aqua;
+position: relative;
+top:20px;
+left:15px;
+right: 170px;
+
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+
+
+    }
+    .col-4{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .text1
+    {
+        background-color: black;
+        font-size: 15px;
+        color: white;
+        height: 200px;
+        width: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 2px;
+
+
+    }
+    .text2{
+        background-color: black;
+        font-size: 15px;
+        color: white;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items:center;
+        padding-left: 3px;
+
+
+    }
+    .text3{
+   
+        background-color: black;
+        font-size: 15px;
+        color: white;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        padding-left: 3px;
+
+    }
+    
+
+    .row-text{
+        background-color: black;
+        font-size: 15px;
+        color: white;
+        height: 130px;
+        width: 1083px;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .col-1{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 10px;
+        
+    }.col-2
+    { display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 270px;
+
+    }
+    .col-3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 230px;
+
+    }
+    .footer-content {
+        height: 41vh;
+        width:100vw;
+        background-color: rgba(9, 5, 25, 0.721);
+        display: flex;
+        padding-top: 100px;
+    }
+
+    .footer1
+    { display: flex;
+        height: 50%;
+        width: 40%;
+    
+        margin: auto;
+
+    }
+    .footer2 {
+        display: flex;
+        height: 50%;
+        width: 40%;
+       margin: auto;
+    justify-content: space-around;
+}
+
+.footer-child1,
+.footer-child2,
+.footer-child3 {
+    display: flex;
+    flex-direction: column;
+    color: hsla(0, 0%, 89%, 0.825);
+} 
+
+@media screen and (max-width:500px) {
+        .second-box{
+        flex-direction: column;
+        height: 268vh;
+        }
+        .image-box {
+            width: 100%;
+            height: 16%;
+    
+    }
+    h4{
+        font-size: 18px;
+        color: white;
+
+    }
+
+}
+
+.discovery-footer{
+    font-size: 30px;
+}
+
